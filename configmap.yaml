@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:myapp-ConfigMap
+data:
+  APP_NAME: "My kubernetes App"
+  ENV: "development"
